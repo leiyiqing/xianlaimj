@@ -1,0 +1,73 @@
+
+local gt = cc.exports.gt
+
+gt.CG_LOGIN					= 1
+gt.GC_LOGIN					= 2
+gt.CG_RECONNECT				= 10
+gt.CG_LOGIN_SERVER			= 11
+gt.GC_LOGIN_SERVER			= 12
+gt.GC_ROOM_CARD				= 13
+gt.GC_MARQUEE				= 14
+gt.CG_HEARTBEAT				= 15
+gt.GC_HEARTBEAT				= 16
+gt.CG_REQUEST_NOTICE		= 17
+gt.GC_REQUEST_NOTICE		= 18
+gt.CG_CREATE_ROOM			= 20
+gt.GC_CREATE_ROOM			= 21
+gt.CG_JOIN_ROOM				= 22
+gt.GC_JOIN_ROOM				= 23
+gt.CG_QUIT_ROOM				= 24
+gt.GC_QUIT_ROOM				= 25
+gt.CG_DISMISS_ROOM			= 26
+gt.GC_DISMISS_ROOM			= 27
+gt.CG_APPLY_DISMISS			= 28
+gt.GC_ENTER_ROOM			= 30
+gt.GC_ADD_PLAYER			= 31
+gt.GC_REMOVE_PLAYER			= 32
+gt.GC_SYNC_ROOM_STATE		= 35
+gt.CG_READY					= 36
+gt.GC_READY					= 37
+gt.GC_OFF_LINE_STATE		= 40
+gt.GC_ROUND_STATE			= 41
+gt.GC_START_GAME			= 50
+gt.GC_TURN_SHOW_MJTILE		= 51
+gt.CG_SHOW_MJTILE			= 52
+gt.GC_SYNC_SHOW_MJTILE		= 53
+gt.GC_MAKE_DECISION			= 54
+gt.CG_PLAYER_DECISION		= 55
+gt.GC_SYNC_MAKE_DECISION	= 56
+gt.CG_CHAT_MSG				= 57
+gt.GC_CHAT_MSG				= 58
+gt.GC_ROUND_REPORT			= 60
+--gt.GC_START_DECISION		= 65
+gt.CG_START_PLAYER_DECISION	= 66
+gt.GC_SYNC_START_PLAYER_DECISION= 67
+gt.GC_SYNC_BAR_TWOCARD      = 68
+gt.CG_SYNC_HAIDI			= 69
+gt.CG_CHOOSE_HAIDI			= 70
+gt.CG_TURN_HAIDI			= 71
+gt.GC_FINAL_REPORT			= 80
+gt.CG_HISTORY_RECORD		= 90
+gt.GC_HISTORY_RECORD		= 91
+gt.CG_REPLAY				= 92
+gt.GC_REPLAY				= 93
+gt.GC_TURNOVER				= 72
+gt.GC_TURNUPCARD			= 97
+gt.GC_SHOW_DICE				= 189
+gt.CG_SHOW_DICE				= 188
+gt.CG_GET_FANGKAACTIVITIES	= 75 -- 客户端请求活动信息 返回94号指令
+gt.GC_GET_FANGKAACTIVITIES	= 76 -- 客户端请求活动信息 返回94号指令
+
+
+
+
+gt.GC_LOTTERY				= 94  -- 服务器推送活动相关信息
+gt.CG_GET_GETLOTTERY		= 95  -- 玩家请求抽奖
+gt.GC_RET_GETLOTTERY		= 96  -- 服务器返回此次抽奖结果
+gt.CG_SAVE_PHONENUM			= 97  -- 客户端请求写入电话号码
+gt.GC_SAVE_PHONENUM			= 98  -- 服务器返回写入电话号码结果
+gt.CG_GET_GETLOTTERYRESULT	= 99  -- 玩家请求自己的抽奖结果
+gt.GC_GET_GETLOTTERYRESULT	= 100 -- 服务器返回玩家抽奖结果
+gt.GC_IS_ACTIVITIES			= 101 -- 服务器推送是否有活动
+gt.CG_GET_ACTIVITIES		= 102 -- 客户端请求活动信息 返回94号指令
+
