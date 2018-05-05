@@ -20,7 +20,7 @@ function MyApp:ctor()
 
 	-- 音效引擎
 	gt.soundEngine = require("app/Sound"):create()
-
+     
 	cc.Device:setKeepScreenOn(true)
 end
 
@@ -33,7 +33,9 @@ function MyApp:run()
 		local updateScene = require("app/views/LogoScene"):create()
 		cc.Director:getInstance():runWithScene(updateScene)
 	end
-
+  
+    print("------------MyApp:run()-----------------")
+  
 	-- -- 30s启动Lua垃圾回收器
 	-- gt.scheduler:scheduleScriptFunc(function(delta)
 	-- 	local preMem = collectgarbage("count")
