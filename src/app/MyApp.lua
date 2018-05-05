@@ -20,7 +20,7 @@ function MyApp:ctor()
 
 	-- 音效引擎
 	gt.soundEngine = require("app/Sound"):create()
-    print("------------myapp-----------")
+
 	cc.Device:setKeepScreenOn(true)
 end
 
